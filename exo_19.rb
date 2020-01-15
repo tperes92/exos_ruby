@@ -10,7 +10,7 @@ i=1
 end
 
 list.each do |mail|
-  if mail[13].to_i % 2 == 0 
+  if mail[14].to_i % 2 == 0 
     puts mail
   end
 end
